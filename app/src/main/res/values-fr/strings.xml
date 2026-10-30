@@ -1,0 +1,32 @@
+<resources>
+    <string name="dock_status_active">DOCK ACTIF</string>
+    <string name="dock_status_standby">VEILLE</string>
+    <string name="tab_dashboard">Horloge</string>
+    <string name="tab_agent">Assistant</string>
+    <string name="tab_bridge">Synchro &amp; widgets</string>
+    <string name="tab_notes">Notes</string>
+    <string name="clock_style_flip">Horloge à volets</string>
+    <string name="clock_style_matrix">Matrice</string>
+    <string name="clock_style_chrono">Cadran chrono</string>
+    <string name="keep_awake_on">Écran allumé : OUI</string>
+    <string name="keep_awake_off">Écran allumé : NON</string>
+    <string name="night_dimmer_label">Atténuation de nuit OLED</string>
+    <string name="agent_title">Assistant local</string>
+    <string name="agent_subtitle">Passerelle PocketPal AI &amp; assistant hors ligne</string>
+    <string name="agent_input_hint">Demandez à l’assistant, résumez la journée ou rédigez une note…</string>
+    <string name="btn_summarize_day">Résumer ma journée</string>
+    <string name="btn_find_focus">Trouver des créneaux</string>
+    <string name="btn_draft_note">Rédiger une note</string>
+    <string name="btn_launch_pocketpal">Envoyer à PocketPal AI</string>
+    <string name="calendar_permission_title">Connecter les agendas</string>
+    <string name="calendar_permission_desc">Autorisez l’accès à l’agenda pour afficher côte à côte vos agendas Gmail et Outlook synchronisés.</string>
+    <string name="btn_grant_calendar">Autoriser l’agenda</string>
+    <string name="btn_open_accounts">Paramètres de synchronisation</string>
+    <string name="btn_add_account">Ajouter un compte Gmail / Outlook</string>
+    <string name="btn_add_agenda_item">Ajouter un élément</string>
+    <string name="btn_add_note">Nouvelle note</string>
+    <string name="empty_notes_message">Aucune note. Utilisez l’assistant ou touchez + pour en créer une.</string>
+    <string name="empty_agenda_message">Aucun événement aujourd’hui. Synchronisez vos comptes ou ajoutez un élément.</string>
+    <string name="dream_label">Horloge compagnon</string>
+    <string name="widget_label">Horloge compagnon</string>
+</resources>

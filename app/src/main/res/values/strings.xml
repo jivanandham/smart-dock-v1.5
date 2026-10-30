@@ -1,0 +1,32 @@
+<resources>
+    <string name="dock_status_active">DOCK ACTIVE</string>
+    <string name="dock_status_standby">STANDBY HUB</string>
+    <string name="tab_dashboard">Dock Clock</string>
+    <string name="tab_agent">Agent Core</string>
+    <string name="tab_bridge">Sync &amp; Widgets</string>
+    <string name="tab_notes">Dock Notes</string>
+    <string name="clock_style_flip">Flip Clock</string>
+    <string name="clock_style_matrix">Tensor Matrix</string>
+    <string name="clock_style_chrono">Chrono Dial</string>
+    <string name="keep_awake_on">Keep Awake: ON</string>
+    <string name="keep_awake_off">Keep Awake: OFF</string>
+    <string name="night_dimmer_label">OLED Night Dimmer</string>
+    <string name="agent_title">Tensor Local Agent</string>
+    <string name="agent_subtitle">PocketPal AI Bridge &amp; Offline Executive Core</string>
+    <string name="agent_input_hint">Ask dock agent, summarize day, or draft a note…</string>
+    <string name="btn_summarize_day">Summarize My Day</string>
+    <string name="btn_find_focus">Find Focus Blocks</string>
+    <string name="btn_draft_note">Draft Action Note</string>
+    <string name="btn_launch_pocketpal">Send to PocketPal AI</string>
+    <string name="calendar_permission_title">Connect Native System Calendars</string>
+    <string name="calendar_permission_desc">Grant Calendar access so Smart Dock can display your synced Gmail and Microsoft Outlook schedules side-by-side.</string>
+    <string name="btn_grant_calendar">Grant Calendar Access</string>
+    <string name="btn_open_accounts">Android Account Sync Settings</string>
+    <string name="btn_add_account">Add Gmail / Outlook Account</string>
+    <string name="btn_add_agenda_item">Add Agenda / Digest Item</string>
+    <string name="btn_add_note">New Dock Note</string>
+    <string name="empty_notes_message">No dock notes yet. Use the Agent Core or tap + to draft offline notes while docked.</string>
+    <string name="empty_agenda_message">No upcoming events for today. Sync your Gmail/Outlook accounts or add a dock agenda item.</string>
+    <string name="dream_label">Desk companion clock</string>
+    <string name="widget_label">Desk companion clock</string>
+</resources>

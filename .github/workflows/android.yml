@@ -1,0 +1,39 @@
+name: Android CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "9.3.1"
+
+      - name: Create debug keystore (the debug signing config expects one)
+        run: |
+          if [ ! -f debug.keystore ]; then
+            keytool -genkeypair -v -keystore debug.keystore -storepass android -alias androiddebugkey \
+              -keypass android -keyalg RSA -keysize 2048 -validity 10000 -dname "CN=Android Debug,O=Android,C=US"
+          fi
+
+      - name: Unit tests
+        run: gradle :app:testDebugUnitTest
+
+      - name: Build debug APK
+        run: gradle :app:assembleDebug
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: smart-dock-debug-apk
+          path: app/build/outputs/apk/debug/*.apk

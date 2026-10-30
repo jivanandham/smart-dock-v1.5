@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Curled-up orange tabby, used by the home-screen widget. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="48dp"
+    android:viewportWidth="72"
+    android:viewportHeight="48">
+    <!-- shadow -->
+    <path android:fillColor="#40000000" android:pathData="M10,44 a26,3 0 1,0 52,0 a26,3 0 1,0 -52,0z" />
+    <!-- body -->
+    <path android:fillColor="#E08A3C" android:pathData="M8,43 C4,26 22,14 40,16 C56,18 64,30 60,43 Z" />
+    <!-- stripes -->
+    <path android:strokeColor="#A34B16" android:strokeWidth="2.2" android:strokeLineCap="round" android:pathData="M22,20 L19,30 M30,17 L28,28 M38,16 L37,27 M46,18 L46,28" />
+    <!-- head -->
+    <path android:fillColor="#E89646" android:pathData="M42,30 C42,23 49,21 54,22 C60,23 63,28 62,34 C61,40 55,43 50,42 C45,41 42,36 42,30 Z" />
+    <!-- ears -->
+    <path android:fillColor="#E08A3C" android:pathData="M45,25 L46,16 L51,22 Z M56,22 L62,15 L61,25 Z" />
+    <path android:fillColor="#F1A9A0" android:pathData="M46.5,23 L47,18.5 L49.5,21.5 Z M57.5,22.5 L60.5,18.5 L60,23.5 Z" />
+    <!-- closed eyes -->
+    <path android:strokeColor="#5E2D0D" android:strokeWidth="1.2" android:strokeLineCap="round" android:pathData="M46,31 Q48,33 50,31 M54,31 Q56,33 58,31" />
+    <!-- nose -->
+    <path android:fillColor="#D9847E" android:pathData="M51,34 L53.5,34 L52.25,35.5 Z" />
+    <!-- tail wrapped over the front -->
+    <path android:strokeColor="#E08A3C" android:strokeWidth="5" android:strokeLineCap="round" android:pathData="M10,40 C20,46 38,46 50,42" />
+    <path android:strokeColor="#B65A1F" android:strokeWidth="5" android:strokeLineCap="round" android:pathData="M47,43 L50,42" />
+    <!-- tiny zzz -->
+    <path android:strokeColor="#CCFFFFFF" android:strokeWidth="1" android:strokeLineCap="round" android:strokeLineJoin="round" android:pathData="M60,8 L64,8 L60,12 L64,12" />
+</vector>
